@@ -34,12 +34,20 @@ body {
     letter-spacing: 0.02em;
     color: var(--second-text-color);
 }
+.header-mail:hover,
+.header-mail:focus {
+    color: var(--accent-color);
+}
 .header-tel {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.143;
     letter-spacing: 0.02em;
     color: var(--second-text-color);
+}
+.header-tel:hover,
+.header-tel:focus {
+    color: var(--accent-color);
 }
 .logo-link {
     font-family: Raleway;
@@ -62,3 +70,45 @@ body {
     list-style: none;
 }
 /* ---------------HERO--------------- */
+.hero {
+    background-color: #2f303a;
+}
+.hero-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--header-text-color1);
+}
+.button {
+    background-color: var(--accent-color);
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 1.875;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--header-text-color1);
+}
+.characteristic {
+}
+.characteristic-list {
+}
+.characteristic-title {
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--header-text-color2);
+}
+.characteristic-text {
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--second-text-color);
+}
