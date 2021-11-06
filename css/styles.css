@@ -1,2 +1,11 @@
 :root {
+    --first-text-color: #212121;
+    --second-text-color: #757575;
+    --accent-color: #2196f3;
+    --header-text-color1: #ffffff;
+    --header-text-color2: #212121;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
 }
