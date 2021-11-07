@@ -180,6 +180,10 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-mail:hover,
+.footer-mail:focus {
+    color: var(--accent-color);
+}
 .footer-tel {
     font-style: normal;
     font-weight: normal;
@@ -188,6 +192,11 @@ body {
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--accent-color);
+}
+
 /*---------------PORTFOLIO-------------*/
 .visually-hidden {
     position: absolute;
